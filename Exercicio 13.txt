@@ -1,0 +1,61 @@
+1 Física
+
+2 Enlace de Dados X
+
+3 Rede 
+
+4 Transporte 
+
+5 Sessão
+
+6 Apresentação
+ 
+7 Aplicação 
+1. Física
+Papel: Transmite bits por meios físicos (cabos, sinais elétricos).
+
+Problema possível: Cabo desconectado ou danificado.
+
+Diagnóstico: Verificar conexões físicas, trocar cabos, usar testador de cabos.
+
+2. Enlace de Dados
+Papel: Detecta erros e controla o acesso à mídia (MAC).
+
+Problema possível: Endereço MAC incorreto, problemas com a placa de rede.
+
+Diagnóstico: Verificar configurações de rede, usar ipconfig/ifconfig, ping local.
+
+3. Rede
+Papel: Roteamento de pacotes entre redes (IP).
+
+Problema possível: IP incorreto, gateway errado, sem rota.
+
+Diagnóstico: Usar ping, tracert/traceroute, verificar configurações IP.
+
+4. Transporte
+Papel: Comunicação fim a fim, controle de fluxo (TCP/UDP).
+
+Problema possível: Porta bloqueada, perda de pacotes.
+
+Diagnóstico: Testar portas com telnet, netstat, verificar firewalls.
+
+5. Sessão
+Papel: Estabelece, gerencia e termina sessões.
+
+Problema possível: Desconexões frequentes.
+
+Diagnóstico: Monitoramento de sessões, ver logs da aplicação.
+
+6. Apresentação
+Papel: Tradução de dados (codificação, criptografia).
+
+Problema possível: Incompatibilidade de formatos (ex: SSL/TLS).
+
+Diagnóstico: Verificar certificados, analisar logs de criptografia.
+
+7. Aplicação
+Papel: Interface com o usuário (navegador, e-mail).
+
+Problema possível: Aplicativo não conecta à internet, erro no cliente.
+
+Diagnóstico: Testar com outro navegador/app, usar nslookup, verificar DNS.
